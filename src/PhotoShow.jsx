@@ -1,5 +1,5 @@
-function PhotoShow() {
-  return <h1>Skyscraper</h1>;
+function PhotoShow({ type }) {
+  return <h1>{type}</h1>;
 }
 
 export default PhotoShow;
