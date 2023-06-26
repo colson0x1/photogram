@@ -1,3 +1,4 @@
+import './App.css';
 import React, { useState } from 'react';
 import PhotoShow from './PhotoShow';
 
@@ -19,11 +20,11 @@ function App() {
   });
 
   return (
-    <div>
+    <div className="app">
       <h1>photogram</h1>
       <button onClick={handleClick}>Add Photo</button>
-      <div>
-        <h1>{renderedPhotos}</h1>
+      <div className="photo-list">
+        {renderedPhotos}
       </div>
     </div>
   );
