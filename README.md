@@ -2,14 +2,6 @@
 
 Photogram is a simple React app that allows users to add random photos to a photo list. It demonstrates the concepts of states and props in React. 
 
-## Screenshots
-
-![photogram](https://i.imgur.com/97ZRdCJ.png)
-
-![photogram potos](https://i.imgur.com/XxAbJqw.png)
-
-![photogram heart photo](https://i.imgur.com/EYIxUN5.png)
-
 ## Installation
 
 To run Photogram locally, follow these steps:
@@ -31,3 +23,11 @@ Upon clicking a photo, the handleClick function is invoked, which updates the st
 The usage of state in this manner demonstrates how React components can maintain and update their internal state, allowing for dynamic interactions and visual feedback within the application.
 
 Feel free to explore and interact with Photogram by adding photos and observing the growth of the heart icon upon clicking each photo.
+
+## Screenshots
+
+![photogram](https://i.imgur.com/97ZRdCJ.png)
+
+![photogram potos](https://i.imgur.com/XxAbJqw.png)
+
+![photogram heart photo](https://i.imgur.com/EYIxUN5.png)
