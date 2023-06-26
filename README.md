@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Photogram
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Photogram is a simple React app that allows users to add random photos to a photo list. It demonstrates the concepts of states and props in React. 
 
-## Available Scripts
+## Screenshots
 
-In the project directory, you can run:
+![photogram](https://i.imgur.com/97ZRdCJ.png)
 
-### `npm start`
+![photogram potos](https://i.imgur.com/XxAbJqw.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![photogram heart photo](https://i.imgur.com/EYIxUN5.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run Photogram locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository: `git clone https://github.com/colson0x1/photogram.git`
+2. Navigate to the project directory: `cd photogram`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit `http://localhost:3000`
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clicking on each photo in the Photogram app triggers an interaction where the heart icon associated with the photo grows bigger in size. This feature is implemented using state management in React.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+When a photo is clicked, the application utilizes the state concept to update the size of the heart icon dynamically. The PhotoShow component, responsible for rendering each photo and its associated heart icon, maintains its own state using the useState hook.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Upon clicking a photo, the handleClick function is invoked, which updates the state value representing the size of the heart icon. As a result, the heart icon visually grows bigger on the screen.
 
-### `npm run eject`
+The usage of state in this manner demonstrates how React components can maintain and update their internal state, allowing for dynamic interactions and visual feedback within the application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to explore and interact with Photogram by adding photos and observing the growth of the heart icon upon clicking each photo.
